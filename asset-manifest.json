@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/johntor/static/css/main.a57d1c9c.css",
+    "main.js": "/johntor/static/js/main.cd6ba751.js",
+    "static/media/earth.jpg": "/johntor/static/media/earth.3de236ba655060184ced.jpg",
+    "static/media/deco.svg": "/johntor/static/media/deco.61bdaa4f455c75f6091e.svg",
+    "static/media/retail.jpg": "/johntor/static/media/retail.116afac5d4e15d330b3c.jpg",
+    "static/media/dask.png": "/johntor/static/media/dask.26ce088c51d7efa7588e.png",
+    "static/media/postgresql.png": "/johntor/static/media/postgresql.028fe547d5b00abe1dcf.png",
+    "static/media/pandas.png": "/johntor/static/media/pandas.6e783f31b44a218a6fa8.png",
+    "static/media/technology.jpg": "/johntor/static/media/technology.598ac3a4aafa40293c4b.jpg",
+    "static/media/finacial-services.jpg": "/johntor/static/media/finacial-services.9cb826f365b6d2049e2d.jpg",
+    "static/media/sklearn.png": "/johntor/static/media/sklearn.d5890f93f4224e477deb.png",
+    "static/media/accountability-taxes.jpg": "/johntor/static/media/accountability-taxes.2b172ead16595269f714.jpg",
+    "static/media/insurance.jpg": "/johntor/static/media/insurance.d0c2799d5fbbbf75c6b4.jpg",
+    "static/media/docker.png": "/johntor/static/media/docker.838063be0dfddea74f94.png",
+    "static/media/numpy.png": "/johntor/static/media/numpy.905b850e88528acd80d4.png",
+    "static/media/telecom.jpg": "/johntor/static/media/telecom.76391fb948588a5af4cb.jpg",
+    "index.html": "/johntor/index.html",
+    "main.a57d1c9c.css.map": "/johntor/static/css/main.a57d1c9c.css.map",
+    "main.cd6ba751.js.map": "/johntor/static/js/main.cd6ba751.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a57d1c9c.css",
+    "static/js/main.cd6ba751.js"
+  ]
+}
