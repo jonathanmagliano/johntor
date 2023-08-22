@@ -1,0 +1,82 @@
+@import '../../variables.scss';
+
+.footer {
+    background-color: black;
+    clear: both;
+    padding: 20px 0;
+
+    .social-icons {
+      float: right;
+          @include mobile {
+            float: none;
+            text-align: center;
+            margin-top: 8px;
+          }
+          @include mobile-tablet {
+            float: none;
+            text-align: center;
+            margin-top: 8px;
+          }
+      .nav-link {
+        margin: 0 8px;
+        i {
+          font-size: 40px;
+          color: white;
+          @include mobile {
+            font-size: 35px;
+          }
+          &:hover {
+            color: $main-blue;
+          }
+          &:focus {
+            color: darken($main-blue, 20%);
+          }
+        }
+      }
+    }
+    &-copyright {
+      @include mobile-tablet {
+        text-align: center;
+      }
+      a {
+        color: white;
+        &:hover {
+          color: white;
+        }
+      }
+      .company {
+        @include desktop {
+          font-size: 14px;
+        }
+        @include mobile-tablet {
+          margin-bottom: 20px;
+          display: block;
+        }
+        @include mobile {
+          font-size: 9px;
+        }
+      }
+      .creator {
+        @include desktop {
+          float: right;
+        }
+        @include mobile-tablet {
+          display: block;
+        }
+        @include mobile {
+          font-size: 9px;
+        }
+      }
+    }
+}
+
+// sticky footer
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
