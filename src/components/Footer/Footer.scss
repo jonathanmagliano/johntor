@@ -6,7 +6,9 @@
     padding: 20px 0;
 
     .social-icons {
-      float: right;
+      float: none;
+      text-align: center;
+      display: block;
           @include mobile {
             float: none;
             text-align: center;
@@ -20,7 +22,7 @@
       .nav-link {
         margin: 0 8px;
         i {
-          font-size: 40px;
+          font-size: 45px;
           color: white;
           @include mobile {
             font-size: 35px;
@@ -35,9 +37,6 @@
       }
     }
     &copyright {
-      @include mobile-tablet {
-        text-align: center;
-      }
       a {
         color: white;
         &:hover {
@@ -46,25 +45,40 @@
       }
       .company {
         @include desktop {
-          font-size: 14px;
+          font-size: 12px;
+          text-align: center;
+          margin-top: 40px;
+          margin-bottom: 10px;
+          display: block;
         }
         @include mobile-tablet {
-          margin-bottom: 20px;
+          text-align: center;
+          margin-top: 40px;
+          margin-bottom: 10px;
           display: block;
         }
         @include mobile {
-          font-size: 9px;
+          text-align: center;
+          font-size: 10px;
         }
       }
       .creator {
         @include desktop {
-          float: right;
+          font-size: 12px;
+          text-align: center;
+          margin-top: 20px;
+          margin-bottom: 2px;
+          display: block;
         }
         @include mobile-tablet {
+          text-align: center;
+          margin-top: 20px;
+          margin-bottom: 2px;
           display: block;
         }
         @include mobile {
-          font-size: 9px;
+          text-align: center;
+          font-size: 10px;
         }
       }
     }
