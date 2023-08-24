@@ -18,12 +18,12 @@ const Footer = () => (
                 </div>
             </div>
         </div>
-        <div className="footer-copyright">
+        <div className="footercopyright">
             <div className="container">
                 <a className="company">
                     JOHNTOR SOLUÇÕES EM TECNOLOGIA - XX.XXX.XXX/XXXX-XX
                 </a>
-                <a className='creator'>
+                <a className="creator">
                     © 2023 developed by JohnTor 
                 </a>
             </div>
