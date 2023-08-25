@@ -12,32 +12,32 @@ import technologyImg from '../../img/technology.jpg'
 const industriesItems = [
     {
         key: 1,
-        title: 'Financial Services',
+        title: 'Serviços financeiros',
         img: finacialServicesImg
     },
     {
         key: 2,
-        title: 'Technology',
+        title: 'Tecnologia',
         img: technologyImg
     },
     {
         key: 3,
-        title: 'Insurance',
+        title: 'Seguros',
         img: insuranceImg
     },
     {
         key: 4,
-        title: 'Retail',
+        title: 'Comércio e Vendas',
         img: retailImg
     },
     {
         key: 5,
-        title: 'Ecommerce',
+        title: 'e-Commerce',
         img: ecommerceImg
     },
     {
         key: 6,
-        title: 'Accountability and Taxes',
+        title: 'Responsabilidade Fiscal e Taxas',
         img: accountabilityTaxesImg
     },
     {
