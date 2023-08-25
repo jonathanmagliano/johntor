@@ -8,44 +8,49 @@ import retailImg from '../../img/retail.jpg'
 import ecommerceImg from '../../img/ecommerce.jpg'
 import accountabilityTaxesImg from '../../img/accountability-taxes.jpg'
 import technologyImg from '../../img/technology.jpg'
+import biologyImg from '../../img/biology.jpg'
 
 const industriesItems = [
     {
         key: 1,
-        title: 'Serviços financeiros',
-        img: finacialServicesImg
-    },
-    {
-        key: 2,
         title: 'Tecnologia',
         img: technologyImg
     },
     {
+        key: 2,
+        title: 'Serviços financeiros',
+        img: finacialServicesImg
+    },
+    {
         key: 3,
-        title: 'Seguros',
-        img: insuranceImg
+        title: 'Ciências Biológicas',
+        img: biologyImg
     },
     {
         key: 4,
-        title: 'Comércio e Vendas',
-        img: retailImg
-    },
-    {
-        key: 5,
-        title: 'e-Commerce',
-        img: ecommerceImg
-    },
-    {
-        key: 6,
         title: 'Responsabilidade Fiscal e Taxas',
         img: accountabilityTaxesImg
     },
     {
+        key: 5,
+        title: 'Seguros',
+        img: insuranceImg
+    },
+    {
+        key: 6,
+        title: 'e-Commerce e Vendas',
+        img: ecommerceImg
+    },
+    {
         key: 7,
+        title: 'Marketing',
+        img: retailImg
+    },
+    {
+        key: 8,
         title: 'Telecom',
         img: telecomImg
     }
-
 ]
 
 const IndustriesCard = () => (
