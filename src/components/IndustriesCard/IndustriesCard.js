@@ -7,7 +7,7 @@ import insuranceImg from '../../img/insurance.jpg'
 import retailImg from '../../img/retail.jpg'
 import ecommerceImg from '../../img/ecommerce.jpg'
 import accountabilityTaxesImg from '../../img/accountability-taxes.jpg'
-import technologyImg from '../../img/technology.jpg'
+import technologyImg from '../../img/technology.png'
 import biologyImg from '../../img/biology.jpg'
 
 const industriesItems = [
