@@ -19,6 +19,9 @@ const Menu = () => (
             <NavItem className='menu__links__item'>
                 <Link to='/sobre'>Sobre</Link>
             </NavItem>
+            <NavItem className='menu__links__item'>
+                <Link to='/contato'>Contato</Link>
+            </NavItem>
         </Navbar>
     </div>
 )

@@ -1,42 +1,27 @@
 @import '../../variables.scss';
 
 .contact {
-    margin-top: 64px;
-    &__header {
-        @include header;
-        background: url('../../img/machine.jpg') no-repeat center top;
-        background-size: cover;
-        padding-top: 70px;
-        span {
-            font-size: 70px;
-            margin-top: 10px;
-            display: block;
-        }
-        @include mobile-tablet {
-            font-size: 22px;
-            padding-top: 40px;
-            span {
-                font-size: 52px;
-                margin-top: 0;
-            }
-        }
-    }
+    margin-top: 20vh;
+    margin-bottom: 20vh;
     &__container {
-        width: 50%;
-        margin: 0 auto 80px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
         @include mobile-tablet {
             width: 90%;
         }
+        
         &__form {
             @include border;
+            width: 100%;
+            max-width: 500px;
+            padding: 0 20px;
+
             form {
-                padding: 0 130px;
-                @include mobile {
-                    padding: 0 40px;
-                }
-                @include tablet {
-                    padding: 0 100px;
-                }
+                padding: 0;
 
                 input[type=text]:not(.browser-default):focus:not([readonly]),
                 textarea.materialize-textarea:focus:not([readonly]) {
@@ -52,6 +37,7 @@
                     color: $gray;
                 }
             }
+            
             &__btn {
                 background-color: $main-blue;
                 &:hover {
@@ -61,6 +47,7 @@
                     background-color: darken($main-blue, 30%);
                 }
             }
+            
             .gotcha {
                 display: none;
             }

@@ -7,7 +7,7 @@ const portfolioItems = [
       title: 'Desenvolvimentos de Softwares',
       text: 'Dashboards, Desenvolvimentos de Softwares, Bancos de dados, Análises de Dados + ',
       img: 'https://blogs-images.forbes.com/louiscolumbus/files/2018/12/Big-Data-Analytics-Adoption-Soared-In-The-Enterprise-In-2018.jpg',
-      link: 'https://www.forbes.com/sites/louiscolumbus/2018/12/23/big-data-analytics-adoption-soared-in-the-enterprise-in-2018/#7a8837d4332f'
+      link: 'mailto:contato.johntor@gmail.com'
     },
     {
       key: 2,

@@ -34,19 +34,19 @@ class Contact extends Component {
     switch(fieldName) {
       case 'name':
         nameValid = value.length >= 4;
-        fieldValidationErrors.name = nameValid ? '' : ' is too short';
+        fieldValidationErrors.name = nameValid ? '' : ' <- está incompleto. Complete corretamente o campo.';
         break;
       case 'email':
         emailValid = value.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i);
-        fieldValidationErrors.email = emailValid ? '' : ' is invalid';
+        fieldValidationErrors.email = emailValid ? '' : ' <- está incompleto. Complete corretamente o campo.';
         break;
       case 'subject':
         subjectValid = value.length >= 3;
-        fieldValidationErrors.subject = subjectValid ? '': ' is too short';
+        fieldValidationErrors.subject = subjectValid ? '': ' <- está incompleto. Complete corretamente o campo.';
         break;
         case 'message':
         messageValid = value.length >= 5;
-        fieldValidationErrors.message = messageValid ? '': ' is too short';
+        fieldValidationErrors.message = messageValid ? '': ' <- está incompleto. Complete corretamente o campo.';
         break;
       default:
         break;
@@ -67,19 +67,15 @@ class Contact extends Component {
       this.state.messageValid
     });
   }
-
   render() {
     return (
       <div className='contact'>
-        <div className='contact__header'>
-          to receive your quotation<br></br><span>contact us</span>
-        </div>
         <div className='contact__container'>
           <div className='contact__container__form'>
-            <form className='col s12' action="https://forms" method="POST">
+            <form className='col s12' action="http://formmail.kinghost.net/formmail.cgi" method="POST">
               <div className='row'>
                 <input type="hidden" name="recipient" value="contato.johntor@gmail.com" />
-                <input type="hidden" name="redirect" value='https://johntor.netlify.app/#/contact/success' />
+                <input type="hidden" name="redirect" value='https://jonathanmagliano.github.io/johntor/#/contato/sucesso' />
                 <input type="hidden" name="subject" value="subject" />
                 <input type="hidden" name="email" value="contato.johntor@gmail.com" />
                 <input type="text" name="_gotcha" className='gotcha' />
@@ -93,7 +89,7 @@ class Contact extends Component {
                     value={this.state.name}
                     onChange={(event) => this.handleUserInput(event)}
                   />
-                  <label>name</label>
+                  <label>Nome</label>
                 </div>
               </div>
               <div className='row'>
@@ -105,7 +101,7 @@ class Contact extends Component {
                     value={this.state.email}
                     onChange={(event) => this.handleUserInput(event)}
                   />
-                  <label>email</label>
+                  <label>e-mail</label>
                 </div>
               </div>
               <div className='row'>
@@ -116,7 +112,7 @@ class Contact extends Component {
                     value={this.state.subject}
                     onChange={(event) => this.handleUserInput(event)}
                   />
-                  <label>subject</label>
+                  <label>Assunto</label>
                 </div>
               </div>
               <div className='row'>
@@ -129,7 +125,7 @@ class Contact extends Component {
                     value={this.state.message}
                     onChange={(event) => this.handleUserInput(event)}>
                   </textarea>
-                  <labe>message</labe>
+                  <labe>Mensagem</labe>
                 </div>
                 <div className='panel panel-default'>
                   <FormErrors formErrors={this.state.formErrors} />
@@ -156,6 +152,5 @@ class Contact extends Component {
     )
   }
 }
-
 
 export default Contact

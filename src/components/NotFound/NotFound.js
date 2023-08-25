@@ -9,7 +9,7 @@ const NotFound = () => (
     <span>
         <i class="fas fa-sad-tear"></i>
     </span>
-    <p>page not found</p>
+    <p>Página não encontrada</p>
   </div>       
 )
 

@@ -10,7 +10,7 @@ class Modal extends Component {
             <Contact />
             <div className='modal-success'>
               <section className="modal-main">
-                We have received your message and we will get back to you as soon as possible.<span>Thanks!</span>
+                Retornaremos a sua mensagem assim que possível.<span>Obrigado!</span>
                 <Link to='/contact' className='close-btn'>
                   <i className="fas fa-times"></i>
                 </Link>

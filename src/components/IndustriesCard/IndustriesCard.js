@@ -64,7 +64,7 @@ const IndustriesCard = () => (
             </li>
         </ul>
         <div className='industries__info'>
-        Empresas por todo o planeta estão utilizando e se beneficiando da Inteligência Artificial (IA) seja para aumentar os seus lucros ou aumentar de modo geral a sua receita, reduzindo as despesas, levando mais dinâmica aos seus processos e entendendo melhor os seus clientes e, com isso, ganhando algumas vantagens competitivas. Essas empresas estão melhorando os seus modelos de negócio, diante disso tomam decisões com mais qualidade baseadas em dados. A parte de maior valor assim sendo é a aplicação da ciência de dados aos negócios de tal forma que se obtém percepções mais rápidas e melhores.
+        Empresas por todo o planeta estão utilizando e se beneficiando da Inteligência Artificial (IA) seja para aumentar os seus lucros ou aumentar de modo geral a sua receita, reduzindo as despesas, levando mais dinâmica aos seus processos e entendendo melhor os seus clientes e, com isso, ganhando algumas vantagens competitivas. Essas empresas estão melhorando os seus modelos de negócio, diante disso tomam decisões com mais qualidade baseadas em dados.
         </div>
         <h4 className='industries__title'>Setores que estamos conectados</h4>
         <div className="industries__cards row">

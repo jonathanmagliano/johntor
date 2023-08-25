@@ -9,8 +9,8 @@ import About from '../About/About'
 import Solutions from '../Solutions/Solutions'
 import IndustriesCard from '../IndustriesCard/IndustriesCard'
 import Portfolio from '../Portfolio/Portfolio'
-// import Contact from '../Contact/Contact'
-// import ContactSuccess from '../ContactSuccess/ContactSuccess'
+import Contact from '../Contact/Contact'
+import ContactSuccess from '../ContactSuccess/ContactSuccess'
 import NotFound from '../NotFound/NotFound'
 
 
@@ -23,6 +23,8 @@ const App = () => (
       <Route exact path='/solucoes' component={Solutions} />
       <Route exact path='/solucoes/setores' component={IndustriesCard} />
       <Route exact path='/sobre' component={About} />
+      <Route exact path='/contato' component={Contact} />
+      <Route exact path='/contato/sucesso' component={ContactSuccess} />
       <Route exact path='*' component={NotFound} />
     </Routes>
     <Footer />
