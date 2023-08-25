@@ -139,7 +139,7 @@ class Contact extends Component {
                       className='btn contact__container__form__btn'
                       type="submit"
                       name="BTEnvia"
-                      value="Send"
+                      value="Enviar"
                       disabled={!this.state.formValid}
                     />
                   </div>

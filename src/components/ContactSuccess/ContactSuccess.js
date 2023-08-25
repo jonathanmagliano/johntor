@@ -11,7 +11,7 @@ class Modal extends Component {
             <div className='modal-success'>
               <section className="modal-main">
                 Retornaremos a sua mensagem assim que possível.<span>Obrigado!</span>
-                <Link to='/contact' className='close-btn'>
+                <Link to='/contato' className='close-btn'>
                   <i className="fas fa-times"></i>
                 </Link>
               </section>
