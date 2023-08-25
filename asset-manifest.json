@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/johntor/static/css/main.5a1d7a43.css",
-    "main.js": "/johntor/static/js/main.9bf7e36c.js",
+    "main.js": "/johntor/static/js/main.c511e41c.js",
     "static/media/biology.jpg": "/johntor/static/media/biology.8460d1e9f4a13f51a19d.jpg",
     "static/media/earth.jpg": "/johntor/static/media/earth.3de236ba655060184ced.jpg",
     "static/media/deco.svg": "/johntor/static/media/deco.61bdaa4f455c75f6091e.svg",
@@ -19,10 +19,10 @@
     "static/media/telecom.jpg": "/johntor/static/media/telecom.76391fb948588a5af4cb.jpg",
     "index.html": "/johntor/index.html",
     "main.5a1d7a43.css.map": "/johntor/static/css/main.5a1d7a43.css.map",
-    "main.9bf7e36c.js.map": "/johntor/static/js/main.9bf7e36c.js.map"
+    "main.c511e41c.js.map": "/johntor/static/js/main.c511e41c.js.map"
   },
   "entrypoints": [
     "static/css/main.5a1d7a43.css",
-    "static/js/main.9bf7e36c.js"
+    "static/js/main.c511e41c.js"
   ]
 }
