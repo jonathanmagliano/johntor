@@ -8,8 +8,7 @@ import Home from '../Home/Home'
 import About from '../About/About'
 import Solutions from '../Solutions/Solutions'
 import IndustriesCard from '../IndustriesCard/IndustriesCard'
-// import Articles from '../Articles/Articles'
-// import Portfolio from '../Portfolio/Portfolio'
+import Portfolio from '../Portfolio/Portfolio'
 // import Contact from '../Contact/Contact'
 // import ContactSuccess from '../ContactSuccess/ContactSuccess'
 import NotFound from '../NotFound/NotFound'
@@ -20,6 +19,7 @@ const App = () => (
     <Menu />
     <Routes>
       <Route exact path='/' component={Home} />
+      <Route exact path='/portfolio' component={Portfolio} />
       <Route exact path='/solucoes' component={Solutions} />
       <Route exact path='/solucoes/setores' component={IndustriesCard} />
       <Route exact path='/sobre' component={About} />

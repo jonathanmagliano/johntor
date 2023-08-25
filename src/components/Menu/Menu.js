@@ -11,6 +11,9 @@ const Menu = () => (
                 <a href='https://jonathanmagliano.github.io/johntor'>JohnTor</a>
             </NavItem>
             <NavItem className='menu__links__item'>
+                <Link to='/portfolio'>Portfolio</Link>
+            </NavItem>
+            <NavItem className='menu__links__item'>
                 <Link data-toggle="collapse" data-target=".sidenav" to='/solucoes'>Soluções</Link>
             </NavItem>
             <NavItem className='menu__links__item'>
