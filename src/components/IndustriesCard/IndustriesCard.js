@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './IndustriesCard.scss'
-import finacialServicesImg from '../../img/finacial-services.jpg'
+import dashboardsImg from '../../img/dashboards.png'
 import telecomImg from '../../img/telecom.jpg'
 import insuranceImg from '../../img/insurance.jpg'
 import retailImg from '../../img/retail.jpg'
@@ -19,7 +19,7 @@ const industriesItems = [
     {
         key: 2,
         title: 'Serviços financeiros',
-        img: finacialServicesImg
+        img: dashboardsImg
     },
     {
         key: 3,
