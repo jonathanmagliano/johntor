@@ -5,7 +5,7 @@ const portfolioItems = [
     {
       key: 1,
       title: 'Desenvolvimentos de Softwares',
-      text: 'Dashboards, Desenvolvimentos de Softwares, Bancos de dados, Análises de Dados + ',
+      text: 'Dashboards, Desenvolvimentos de Softwares, Bancos de dados, Análises de Dados +',
       img: 'https://blogs-images.forbes.com/louiscolumbus/files/2018/12/Big-Data-Analytics-Adoption-Soared-In-The-Enterprise-In-2018.jpg',
       link: 'https://portfolio-johntor.onrender.com/'
     },
