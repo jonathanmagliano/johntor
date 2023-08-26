@@ -2,8 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './IndustriesCard.scss'
 import dashboardsImg from '../../img/dashboards.png'
-import telecomImg from '../../img/telecom.jpg'
-import insuranceImg from '../../img/insurance.jpg'
 import retailImg from '../../img/retail.jpg'
 import ecommerceImg from '../../img/ecommerce.jpg'
 import accountabilityTaxesImg from '../../img/accountability-taxes.jpg'
@@ -33,23 +31,13 @@ const industriesItems = [
     },
     {
         key: 5,
-        title: 'Seguros',
-        img: insuranceImg
+        title: 'Marketing Analytics',
+        img: retailImg
     },
     {
         key: 6,
         title: 'e-Commerce e Vendas',
         img: ecommerceImg
-    },
-    {
-        key: 7,
-        title: 'Marketing',
-        img: retailImg
-    },
-    {
-        key: 8,
-        title: 'Telecom',
-        img: telecomImg
     }
 ]
 

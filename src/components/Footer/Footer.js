@@ -9,7 +9,7 @@ const Footer = () => (
                     <a className="nav-link" href="mailto:contato.johntor@gmail.com" target="_blank" title="Email" rel="noopener noreferrer">
                         <i className="fas fa-envelope"></i>
                     </a>
-                    <a className="nav-link" href="https://wa.me/21991366859?text=Olá, JohnTor!%20gostaria%20de%20entrar%20em%20contato." target="_blank" title="WhatsApp" rel="noopener noreferrer">
+                    <a className="nav-link" href="https://www.upwork.com/ab/flservices/workwith/johntor" target="_blank" title="Upwork" rel="noopener noreferrer">
                         <i className="fab fa-whatsapp"></i>
                     </a>
                     <a className="nav-link" href="https://www.linkedin.com/in/jonathanmagliano" target="_blank" title="Linkedin" rel="noopener noreferrer">
