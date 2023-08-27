@@ -9,7 +9,7 @@ const About = () => (
       <div className='about__container__info text'>
         <div className='about__container__info__title'>Sobre</div>
         <div className='about__container__info__text'>
-          Somos uma equipe multidisciplinar de alta qualidade com pessoas de distintas habilidades e temos parcerias com muita experiência em construção de negócios, análise de dados, visualizações, análise preditiva, planejamento por pesquisa de mercado, entre outros. Contamos com profissionais dispostos a encontrar as melhores soluções através dos dados. Temos uma visão de como os atuais modelos de negócio funcionam e também pensamos por uma cultura data-driven.
+          Temos uma equipe multidisciplinar de alta qualidade com pessoas de distintas habilidades e juntamos parcerias com muita experiência em construção de negócios, análise de dados, visualizações, análise preditiva, planejamento por pesquisa de mercado, entre outros. Contamos com profissionais dispostos a encontrar as melhores soluções através dos dados. Temos uma visão de como os atuais modelos de negócio funcionam e também pensamos por uma cultura data-driven.
           <br></br>
           <br></br>
           No momento nós temos parceiros estratégicos distribuídos por regiões percorrendo o Brasil.
