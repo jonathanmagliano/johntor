@@ -10,7 +10,7 @@ const Footer = () => (
                         <i className="fas fa-envelope"></i>
                     </a>
                     <a className="nav-link" href="https://www.upwork.com/ab/flservices/workwith/johntor" target="_blank" title="Upwork" rel="noopener noreferrer">
-                        <i className="fab fa-whatsapp"></i>
+                        <i className="fas fa-briefcase"></i>
                     </a>
                     <a className="nav-link" href="https://www.linkedin.com/in/jonathanmagliano" target="_blank" title="Linkedin" rel="noopener noreferrer">
                         <i className="fab fa-linkedin"></i>
