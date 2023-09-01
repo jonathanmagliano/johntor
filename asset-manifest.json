@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/johntor/static/css/main.5a1d7a43.css",
-    "main.js": "/johntor/static/js/main.5123a29c.js",
+    "main.js": "/johntor/static/js/main.ada01f7b.js",
     "static/media/technology.png": "/johntor/static/media/technology.4002cb104f2f5a32ff34.png",
     "static/media/dashboards.png": "/johntor/static/media/dashboards.e7903ef7c7e9ce28774f.png",
     "static/media/biology.jpg": "/johntor/static/media/biology.8460d1e9f4a13f51a19d.jpg",
@@ -17,10 +17,10 @@
     "static/media/numpy.png": "/johntor/static/media/numpy.905b850e88528acd80d4.png",
     "index.html": "/johntor/index.html",
     "main.5a1d7a43.css.map": "/johntor/static/css/main.5a1d7a43.css.map",
-    "main.5123a29c.js.map": "/johntor/static/js/main.5123a29c.js.map"
+    "main.ada01f7b.js.map": "/johntor/static/js/main.ada01f7b.js.map"
   },
   "entrypoints": [
     "static/css/main.5a1d7a43.css",
-    "static/js/main.5123a29c.js"
+    "static/js/main.ada01f7b.js"
   ]
 }
