@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/johntor/static/css/main.5a1d7a43.css",
-    "main.js": "/johntor/static/js/main.ada01f7b.js",
+    "main.js": "/johntor/static/js/main.d0fe8e51.js",
     "static/media/technology.png": "/johntor/static/media/technology.4002cb104f2f5a32ff34.png",
     "static/media/dashboards.png": "/johntor/static/media/dashboards.e7903ef7c7e9ce28774f.png",
     "static/media/biology.jpg": "/johntor/static/media/biology.8460d1e9f4a13f51a19d.jpg",
     "static/media/earth.jpg": "/johntor/static/media/earth.3de236ba655060184ced.jpg",
     "static/media/deco.svg": "/johntor/static/media/deco.61bdaa4f455c75f6091e.svg",
-    "static/media/retail.jpg": "/johntor/static/media/retail.116afac5d4e15d330b3c.jpg",
     "static/media/dask.png": "/johntor/static/media/dask.26ce088c51d7efa7588e.png",
     "static/media/postgresql.png": "/johntor/static/media/postgresql.028fe547d5b00abe1dcf.png",
     "static/media/pandas.png": "/johntor/static/media/pandas.6e783f31b44a218a6fa8.png",
@@ -17,10 +16,10 @@
     "static/media/numpy.png": "/johntor/static/media/numpy.905b850e88528acd80d4.png",
     "index.html": "/johntor/index.html",
     "main.5a1d7a43.css.map": "/johntor/static/css/main.5a1d7a43.css.map",
-    "main.ada01f7b.js.map": "/johntor/static/js/main.ada01f7b.js.map"
+    "main.d0fe8e51.js.map": "/johntor/static/js/main.d0fe8e51.js.map"
   },
   "entrypoints": [
     "static/css/main.5a1d7a43.css",
-    "static/js/main.ada01f7b.js"
+    "static/js/main.d0fe8e51.js"
   ]
 }
