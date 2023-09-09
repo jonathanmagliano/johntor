@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './IndustriesCard.scss'
 import dashboardsImg from '../../img/dashboards.png'
-import retailImg from '../../img/retail.jpg'
 import ecommerceImg from '../../img/ecommerce.jpg'
 import accountabilityTaxesImg from '../../img/accountability-taxes.jpg'
 import technologyImg from '../../img/technology.png'
@@ -16,26 +15,21 @@ const industriesItems = [
     },
     {
         key: 2,
-        title: 'Serviços financeiros',
+        title: 'Marketing Analytics',
         img: dashboardsImg
     },
     {
         key: 3,
-        title: 'Ciências Biológicas',
+        title: 'Análises Biológicas',
         img: biologyImg
     },
     {
         key: 4,
-        title: 'Responsabilidade Fiscal e Taxas',
+        title: 'Serviços financeiros',
         img: accountabilityTaxesImg
     },
     {
         key: 5,
-        title: 'Marketing Analytics',
-        img: retailImg
-    },
-    {
-        key: 6,
         title: 'e-Commerce e Vendas',
         img: ecommerceImg
     }
